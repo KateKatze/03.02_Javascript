@@ -1,5 +1,12 @@
+// getting stuff from the JSON
+
 var arr = JSON.parse(array);
+
+// table for the info made
+
 console.table(arr);
+
+// extract info in the cards
 
 for (let value of arr) {
     document.getElementById("result").innerHTML += `
@@ -12,6 +19,8 @@ for (let value of arr) {
   </div>
     `;
 }
+
+// bigger card made here
 
 function moreDetails(index) {
     return `
@@ -27,7 +36,11 @@ function moreDetails(index) {
   `;
 }
 
+// variable for the doc... to make a loop
+
 var cardDetails = document.getElementsByClassName("cardDetails");
+
+// loop for each card to "zoom" it 
 
 for (let i = 0; i < cardDetails.length; i++) {
     cardDetails[i].addEventListener("click", function() {
