@@ -1,7 +1,0 @@
-let food = `[{ 
-    "sandwich": "hamburger", 
-    "calories": "260" 
-    }, { 
-    "friesSize": "Large French Fries", 
-    "calories": "570"     
-}]`;
