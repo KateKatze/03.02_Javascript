@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student points</title>
+
+</head>
+
+<body>
+
+    <p id="grade"></p>
+
+    <script>
+        var students = ["John", "Jane", "Jill", "James"];
+        var mathGrades = [70, 85, 100, 50];
+        var name = prompt("Type your name");
+
+        function grade(points) {
+
+            switch (true) {
+                case (points < 60):
+                    return "crimson";
+                    break;
+                case (points <= 70):
+                    return "yellow";
+                    break;
+                case (points < 100):
+                    return "lightgreen";
+                    break;
+                default:
+                    return "lightblue";
+                    break;
+            }
+        }
+
+        for (i in students) {
+
+            if (students[i] == name) {
+                document.getElementById("grade").innerHTML = `${name} has reached ${mathGrades[i]} points in Maths this season.`;
+                document.querySelector("body").style.backgroundColor = grade(mathGrades[i])
+            }
+        }
+    </script>
+
+</body>
+
+</html>
