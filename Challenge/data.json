@@ -1,0 +1,43 @@
+let array = `[{
+    "name": "Ford",
+    "production_year": "2017",
+    "img": "https://cdn.pixabay.com/photo/2012/11/02/13/02/car-63930__480.jpg",
+    "car_price": "$26,000",
+    "color": "Black",
+    "transmission": "Manual transmission" 
+}, {
+    "name": "Ford",
+    "production_year": "2018",
+    "img": "https://cdn.pixabay.com/photo/2016/05/06/16/32/car-1376190__340.jpg",
+    "car_price": "$22,000",
+    "color": "Black/white",
+    "transmission": "Automatic transmission" 
+}, {
+    "name": "Ford",
+    "production_year": "2021",
+    "img": "https://cdn.pixabay.com/photo/2020/10/19/08/20/car-5667110__340.jpg",
+    "car_price": "$25,000",
+    "color": "Black",
+    "transmission": "Manual transmission"  
+}, {
+    "name": "Ford",
+    "production_year": "2022",
+    "img": "https://cdn.pixabay.com/photo/2017/09/20/00/28/ford-mustang-2767124__340.png",
+    "car_price": "$56,000",
+    "color": "Red",
+    "transmission": "Manual transmission"  
+}, {
+    "name": "Ford",
+    "production_year": "2017",
+    "img": "https://cdn.pixabay.com/photo/2012/11/03/22/41/ford-64041__340.jpg",
+    "car_price": "$35,000",
+    "color": "Black",
+    "transmission": "Manual transmission"
+}, {
+    "name": "Ford",
+    "production_year": "2019",
+    "img": "https://cdn.pixabay.com/photo/2016/09/29/18/48/mustang-1703538__340.jpg",
+    "car_price": "$40,000",
+    "color": "Blue",
+    "transmission": "Manual transmission" 
+}]`;
