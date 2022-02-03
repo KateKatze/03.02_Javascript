@@ -15,7 +15,6 @@ function mouseClick() {
     document.getElementById("circle").style.backgroundColor = "gray";
 }
 
-
 function doubleClick() {
     document.getElementById("circle").style.backgroundColor = "blue";
 }
