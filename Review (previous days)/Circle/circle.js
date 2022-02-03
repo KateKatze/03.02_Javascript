@@ -1,14 +1,21 @@
-let circle1 = document.getElementById("circle")
+document.getElementById("circle").addEventListener("mouseover", mouseIn);
+document.getElementById("circle").addEventListener("mouseout", mouseOut);
+document.getElementById("circle").addEventListener("click", mouseClick);
+document.getElementById("circle").addEventListener("dblclick", doubleClick);
 
-circle1.addEventListener("click", function() {
-    circle1.style.backgroundColor = "magenta"
-})
-circle1.addEventListener("mouseover", function() {
-    circle1.innerHTML = ("boy")
-})
-circle1.addEventListener("mouseout", function() {
-    circle1.innerHTML = ("doggo")
-})
-circle1.addEventListener("dblclick", function() {
-    circle1.style.backgroundColor = "orange"
-})
+function mouseIn() {
+    document.getElementById("circleText").innerHTML = "You are in the circle";
+}
+
+function mouseOut() {
+    document.getElementById("circleText").innerHTML = "You are outside of the circle";
+}
+
+function mouseClick() {
+    document.getElementById("circle").style.backgroundColor = "gray";
+}
+
+
+function doubleClick() {
+    document.getElementById("circle").style.backgroundColor = "blue";
+}

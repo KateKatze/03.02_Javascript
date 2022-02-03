@@ -1,7 +1,19 @@
-#circle {
-    background-color: aqua;
-    margin: 45vh;
+.dot {
+    height: 25vw;
+    width: 25vw;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    position: absolute;
+    border: solid black 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dot p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
